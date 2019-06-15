@@ -1,7 +1,7 @@
-create table [dbo].[Registration](
+create table [dbo].[Pendaftaran](
     id INT NOT NULL IDENTITY(1,1) PRIMARY KEY(id),
-    name VARCHAR(30),
+    nama VARCHAR(30),
     email VARCHAR(30),
-    job VARCHAR(30),
-    date DATE
+    pekerjaan VARCHAR(30),
+    tanggal DATE
 );
